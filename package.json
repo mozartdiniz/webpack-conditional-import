@@ -2,8 +2,8 @@
   "name": "registration-form",
   "private": true,
   "scripts": {
-    "build": "webpack --config ./webpack.config.js",
-    "dev": "webpack-dev-server --config ./webpack.config.js"
+    "build": "webpack --config ./webpack.config.js --mode=production",
+    "dev": "webpack-dev-server --config ./webpack.config.js --compress"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.2",
