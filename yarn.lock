@@ -8302,11 +8302,6 @@ webpack-cli@^3.2.3:
     v8-compile-cache "2.0.3"
     yargs "13.2.4"
 
-webpack-conditional-loader@^1.0.12:
-  version "1.0.12"
-  resolved "https://artifactory.gamesys.co.uk:443/artifactory/api/npm/gamesys-unicorn-npm-virtual/webpack-conditional-loader/-/webpack-conditional-loader-1.0.12.tgz#3e1d6f182aefac6d914c99acd0f861eddddfb728"
-  integrity sha1-Ph1vGCrvrG2RTJms0Phh7d3ftyg=
-
 webpack-dev-middleware@^3.7.0, webpack-dev-middleware@^3.7.2:
   version "3.7.2"
   resolved "https://artifactory.gamesys.co.uk:443/artifactory/api/npm/gamesys-unicorn-npm-virtual/webpack-dev-middleware/-/webpack-dev-middleware-3.7.2.tgz#0019c3db716e3fa5cecbf64f2ab88a74bab331f3"

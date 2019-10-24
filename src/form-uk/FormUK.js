@@ -2,9 +2,9 @@ import React from 'react';
 
 import TextField from '../form-items/TextField';
 
-export const FormUK = () => (
+export const FormUK = ({ onFieldChange }) => (
     <div>
         <h1>Form UK</h1>
-        <TextField />
+        <TextField onChangeCallback={ onFieldChange } name="username" />
     </div>
 );

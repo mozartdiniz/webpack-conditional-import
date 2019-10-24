@@ -1,3 +1,5 @@
 import React from 'react';
 
-export const TextField = () => <input type="text" />;
+export const TextField = ({ onChangeCallback, name }) => (
+  <input type="text" onChange={onChangeCallback} name={ name }/>
+);
