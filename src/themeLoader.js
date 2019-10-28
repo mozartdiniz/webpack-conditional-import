@@ -1,15 +1,11 @@
 let theme;
 
-switch (process.env.VENTURE) {
-    case 'UK':
-        theme = require('./styles/jackpotjoy').default;
-        break;
-    case 'ES':
-        theme = require('./styles/starspins').default;
-        break;
-    default:
-        theme = require('./styles/default').default;
-        break;
+if (process.env.VENTURE === 'jackpotjoy') {
+    theme = require('./styles/jackpotjoy').default;
+} else if (process.env.VENTURE === 'starspins') {
+    theme = require('./styles/starspins').default;
+} else {
+    theme = require('./styles/default').default;
 }
 
 export default theme;

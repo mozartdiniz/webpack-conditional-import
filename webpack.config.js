@@ -25,6 +25,7 @@ module.exports = {
   plugins: [
     new webpack.DefinePlugin({
       'process.env': {
+        JURISDICTION: JSON.stringify(process.env.JURISDICTION),
         VENTURE: JSON.stringify(process.env.VENTURE)
       }
     })
